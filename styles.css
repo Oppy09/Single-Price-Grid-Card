@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(218, 22%, 67%);
+    font-family: Karla;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+div.container{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+div.container > div {
+    padding: 2rem;
+    color: hsl(204, 43%, 93%);
+}
+div.container > div.community-sec {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+    grid-column: 1 / 3;
+    background-color: hsl(204, 43%, 93%);
+    color: hsl(218, 22%, 67%);
+}
+div.container > div > header > h1 {
+    margin-bottom: .5rem;
+}
+div.container > div.community-sec > header > h1 {
+    color: hsl(179, 62%, 43%);
+}
+div.container > div.community-sec > h2.sub-heading {
+    color: hsl(71, 73%, 54%)
+}
+div.container > div.subscription-sec {
+    background-color: hsl(179, 62%, 32%)
+}
+div.container > div.about-us-sec {
+    background-color: hsl(179, 62%, 43%)
+}
