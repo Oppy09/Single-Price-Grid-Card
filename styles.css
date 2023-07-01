@@ -90,4 +90,21 @@ a{
     color: hsl(204, 43%, 93%);
     cursor: pointer;
 }
+
+/*************MEDIA QUERY************/
+
+@media  screen and (max-width: 400px) {
+    body{
+        padding: 1rem;
+    }
+    main{
+        height: 100%;
+    }
+    div.container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+}
     
