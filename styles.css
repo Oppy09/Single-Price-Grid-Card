@@ -14,8 +14,9 @@ main {
     height: 100vh;
 }
 p {
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.2rem;
+    line-height: 1.5;
 }
 div.container{
     width: 50%;
@@ -45,9 +46,48 @@ div.container > div.community-sec > header > h1 {
 div.container > div.community-sec > h2.sub-heading {
     color: hsl(71, 73%, 54%)
 }
+div.container > div.community-sec > p{
+    font-weight: 700;
+}
 div.container > div.subscription-sec {
     background-color: hsl(179, 62%, 32%)
 }
-div.container > div.about-us-sec {
-    background-color: hsl(179, 62%, 43%)
+div.container > div.subscription-sec > header > h1{
+    opacity: 0.8;
 }
+div.container > div.subscription-sec > p{
+    line-height: 2;
+}
+div.container > div.subscription-sec > p > span{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+div.container > div.subscription-sec > p.duration{
+    opacity: 0.9;
+}
+div.container > div.subscription-sec > button{
+    padding: 1rem;
+    width: 80%;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: hsl(71, 73%, 54%);
+    font-size: large;
+}
+div.container > div.about-us-sec {
+    background-color: hsl(179, 62%, 43%);
+}
+div.container > div.about-us-sec{
+    line-height: 1.5;
+}
+div.container > div.about-us-sec > p{
+    line-height: 1.5;
+    opacity: 0.7;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color: hsl(204, 43%, 93%);
+    cursor: pointer;
+}
+    
