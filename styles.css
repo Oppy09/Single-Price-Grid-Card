@@ -107,4 +107,17 @@ a{
         height: 100%;
     }
 }
+@media screen and (max-width: 800px) {
+    body{
+        padding: 1rem;
+    }
+    main{
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    div.container{
+        width: 100%;
+    }
+}
     
